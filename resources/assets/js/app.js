@@ -6,5 +6,13 @@
  */
 
 require('./bootstrap');
-
+// Require Vue
 window.Vue = require('vue');
+//Import Section Start
+import Buefy from 'buefy'
+//Import Section End
+
+//Vue Use Section Start
+Vue.use(Buefy)
+
+//Vue Use Section End
